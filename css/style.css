@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+#navBar{
+  position: fixed;
+  border-bottom-width: 1px;
+  border-bottom-color: #ccc;
+  border-bottom-style: solid;
+  padding: 10px 0;
+  background-color: white;
+  border-top: 2px solid cornflowerblue;
+  font-family: 'Exo 2', sans-serif;
+  overflow: auto;
+  width: 100%;
+  height: auto;
+  top: 0;
+  z-index: 40;
+}
+#navBar2{
+  width: 100%;
+  background-color: #336699;
+  margin-top: 50px;
+  position: fixed;
+}
+#feedBlock{
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  border-bottom: 1px solid #ccc;
+}
+#feedBlock li{
+  padding: 10px;
+}
+#feedBlock li.titulo{
+  width: auto;
+  background-color: inherit;
+  padding: 23px 5px;
+  font-size: 1.3em;
+}
+div.navButton{
+  display: inline-block;
+  color: white;
+  width: auto;
+  padding: 8px 20px;
+}
+#brand img{
+  width: 90px;
+  height: auto;
+  margin: 0 10px;
+}
+#menu-icon img{
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin: 5px 10px 0 0;
+}
+div.layout{
+  display: inline-block;
+}
+div.stats{
+  top: 90px;
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+  background-color: hsla(226, 0%, 87%, 1);
+  text-align: center;
+}
+div.stats2{
+  right: 0;
+  top: 90px;
+  width: 30%;
+  height: 100vh;
+  position: fixed;
+  background-color: hsla(226, 0%, 87%, 1);
+}
+#materias{
+  width: 100%;
+}
+#materias li.item{
+  color: black;
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
+}
+div.feed{
+  top: 90px;
+  left: 30%;
+  width: 60%;
+  height: auto;
+  z-index: -10;
+  position: relative;
+  background-color: white;
+}
+img.boneco{
+  width: 40px;
+  height: auto;
+  margin: 15px;
+}
+img.badge{
+  width: 60px;
+}
+img.like{
+  width: 20px;
+  margin: 10px;
+}
+img.post{
+  width: 100%;
+}
+img.mat{
+  width: 40px;
+  height: 40px;
+  margin: 5px 5px;
+}
+.statsFont{
+  margin: 20px 0;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
